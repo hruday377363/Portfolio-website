@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+    <SCRIPT language=JavaScript>
+        var message = "function disabled";
+        
+        function rtclickcheck(keyp){ if (navigator.appName == "Netscape" && keyp.which == 3){ alert(message); return false; }
+        
+        if (navigator.appVersion.indexOf("MSIE") != -1 && event.button == 2) { alert(message); return false; } }
+        
+        document.onmousedown = rtclickcheck;
+        
+    </SCRIPT>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    	<!-- <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"> -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+        <title>R ASHWIN Portfolio</title>
+        <!-- Favicon -->
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+        <link rel="manifest" href="assets/favicon/site.webmanifest">
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">R ASHWIN</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#education" class="nav__link">Education</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <!-- <li class="nav__item"><a href="#work" class="nav__link">Projects</a></li> -->
+                        <li class="nav__item"><a href="#Certificate" class="nav__link">Achievement</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">R ASHWIN</span><br><span class="home__title-color"><span class="typing"></span></span></h1>
+
+                    <a href="assets/img/Resume.pdf" class="button" >Resume</a>
+                    
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/ashwin3082002/" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://github.com/ashwin3082002" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                </div>
+
+                <div class="home__img">    
+                    <img src="assets/img/ashwin.jpeg" alt="">
+                </div>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/my.jpeg" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">Hey, I'am <span class="home__title-color">Ashwin</span></h2>
+                        <p class="about__text">I am an undergraduate student pursuing B.Tech from the <b>Panimalar Engineering College, Chennai</b>, in Computer Science & Business Systems. I truly believe that I could deliver to your expectations in the desired time framework and give my best while learning the new technologies and industry insights. I am a quick learner.</p>           
+                    </div>                                   
+                </div>
+            </section>
+            <!--Education Section-->
+            <section class="education section" id="education">
+                <h2 class ="section-title">Education</h2>
+                <div class="education__container bd-grid">
+                    <div>
+                        <div class="education__data">
+                            <div class="q1">
+                                <div>
+                                    <a href="" class="qualif__icon"><i class="fa fa-graduation-cap" aria-hidden="true"></i></a>
+                                </div>
+                                <div>
+                                    <h2 class="qualif__subtitle">Panimalar Engineering College</h2>
+                                    <p class="qualif__text">2020-2024</p>
+                                    <br>
+                                    <p class="qualif__text">Btech , Computer Science & Business Systems</p>
+                                    <p class="qualif__text">Pursuing</p>
+                                </div>
+                            </div>
+                            <div>              
+                                <img src="assets/img/logo.png" alt="" class="skills__img">
+                            </div>
+                        </div>
+                        <div class="education__data">
+                            <div class="q2">
+                                <div>
+                                    <a href="" class="qualif__icon"><i class="fa fa-graduation-cap" aria-hidden="true"></i></a>
+                                </div>
+                                <div>
+                                    <h2 class="qualif__subtitle">Kendriya Vidyalaya No:1 Arakkonam</h2>
+                                    <p class="qualif__text">2019-2020 (12th)</p>
+                                    <br>
+                                    <p class="qualif__text">CBSE, PCM with Computer Science</p>
+                                    <p class="qualif__text">Secured 67.8 % </p>
+                                </div>
+                            </div>
+                            <div>              
+                                <img src="assets/img/school.png" alt="" class="skills__img">
+                            </div>
+                        </div>
+                        <div class="education__data">
+                            <div class="q3">
+                                <div>
+                                    <a href="" class="qualif__icon"><i class="fa fa-graduation-cap" aria-hidden="true"></i></a>
+                                </div>
+                                <div>
+                                    <h2 class="qualif__subtitle">Kendriya Vidyalaya No:1 Arakkonam</h2>
+                                    <p class="qualif__text">2017-2018 (10th)</p>
+                                    <br>
+                                    <p class="qualif__text">CBSE</p>
+                                    <p class="qualif__text">Secured 67.8 %</p>
+                                </div>
+                            </div>
+                            <div>              
+                                <img src="assets/img/school.png" alt="" class="skills__img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+                <div class="skills__container bd-grid">          
+                    <div>
+                        <h2 class="skills__subtitle">Profesional Skills</h2>
+                        <p class="skills__text"></p>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxs-paint skills__icon'></i>
+                                <span class="skills__name">Python</span>
+                            </div>
+                            <div class="skills__bar skills__dsa">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">95%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxs-paint skills__icon'></i>
+                                <span class="skills__name">Mysql</span>
+                            </div>
+                            <div class="skills__bar skills__java">
+
+                            </div>
+                            <div>
+                                <span class="skills__percentage">95%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxs-paint skills__icon'></i>
+                                <span class="skills__name">Microsoft Azure</span>
+                            </div>
+                            <div class="skills__bar skills__cpp">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">90%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxs-paint skills__icon' ></i>
+                                <span class="skills__name">Digital Marketing</span>
+                            </div>
+                            <div class="skills__bar skills__kotlin">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">75%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxs-paint skills__icon'></i>
+                                <span class="skills__name">Google Cloud Platform</span>
+                            </div>
+                            <div class="skills__bar skills__os">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">85%</span>
+                            </div>
+                        </div>
+                      
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxs-paint skills__icon'></i>
+                                <span class="skills__name">Cloud Computing</span>
+                            </div>
+                            <div class="skills__bar skills__oops">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">90%</span>
+                            </div>
+                        </div>
+
+                    </div>
+                    
+                    <div>              
+                        <img src="assets/img/work.png" alt="" class="skills__img">
+                    </div>
+                </div>
+            </section>
+            <!--familiar section-->
+            <section class="familiar section" id="familiar">
+                <h3 class="section-title">Familiar With</h3>
+                <div class="work__container bd-grid">          
+                    <div class="familiar_cont">
+                        <img src="assets/img/python.png" alt=""  class="familiar__img" width="100px" height="100px">
+                        <h2 class="familiar__subtitle">Python</h2>
+                    </div>
+                    <div class="familiar_cont">
+                        <img src="assets/img/mysql.png" alt=""  class="familiar__img" width="100px" height="100px">
+                        <h2 class="familiar__subtitle">MySQL</h2>
+                    </div>
+                    <div class="familiar_cont">
+                        <img src="assets/img/azure.png" alt=""  class="familiar__img" width="100px" height="100px">
+                        <h2 class="familiar__subtitle">Microsoft Azure </h2>
+                    </div>
+                    <div class="familiar_cont">
+                        <img src="assets/img/gcp.png" alt=""  class="familiar__img" width="100px" height="100px">
+                        <h2 class="familiar__subtitle">Google Cloud Platform</h2>
+                    </div>
+                </div>
+            </section>
+
+            <!--===== WORK =====-->
+	    <!--
+            <section class="work section" id="work">
+                <h2 class="section-title">Projects</h2>
+
+                <div class="work__container bd-grid">
+                    <a href="#">
+                    <div class="work__img">
+                        <img src="assets/img/images.png" alt="">
+                    </div>
+                    </a>
+                    <a href="#">
+                    <div class="work__img">
+                        <img src="assets/img/images.png" alt="">
+                    </div>
+                    </a>
+                    <a href="#">
+                    <div class="work__img">
+                        <img src="assets/img/images.png" alt="">
+                    </div>
+                    </a>  
+                    
+                   
+                </div>
+            </section>
+	    -->
+            <!--========Certificate section-->
+            <section class="Certificate section" id="Certificate">
+                <h2 class="section-title">Achievement</h2>
+
+				<div class="Certificate__container bd-grid">
+                    <a href="https://www.credly.com/badges/97bc67d5-5925-4723-af4c-d4b7e2cc4df1">
+                        <div class="certificate__img">
+                        <img src="assets/img/course.png" alt="">
+                        </div>
+                    </a>
+                    
+                </div>
+                <div class="Certificate__container bd-grid">
+                    <a href="https://www.coursera.org/account/accomplishments/verify/HGMU2S9APBQJ">
+                        <div class="certificate__img">
+                        <img src="assets/img/course1.jpg" alt="">
+                        </div>
+                    </a>
+                </div>
+				<div class="Certificate__container bd-grid">
+                    <a href="https://learndigital.withgoogle.com/digitalgarage/validate-certificate-code">
+                        <div class="certificate__img">
+                        <img src="assets/img/course2.jpg" alt="">
+                        </div>
+                    </a>
+                </div>
+            </section>
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <title>Save Web Form Data to Spreadsheets</title>
+	            <script
+		            src="https://code.jquery.com/jquery-3.4.1.js"
+		            integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+		            crossorigin="anonymous"></script>
+                <h2 class="section-title">Contact</h2>
+                <div class="contact__container bd-grid">
+                    <form id ="myForm" action="#" class="contact__form">
+                        <input type="text" name="Name" placeholder="Name" class="contact__input">
+                        <input type="email" name="Email" placeholder="Email" class="contact__input">
+                        <textarea name="Message" placeholder="Enter your Message" id="" cols="0" rows="10" class="contact__input"></textarea>
+                        <input type="hidden" id='currentDateTime' name="DateTime" value='' > 
+                        <input type="button" value="Send" onclick='SubForm()' class="contact__button button">
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">R ASHWIN</p>
+            <div class="footer__social">
+                <a href="https://www.instagram.com/ashwin3082002/" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+                <a href="https://twitter.com/ashwin3082002" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+            </div>
+            <p>&#169; 2021 copyright all right reserved</p>
+        </footer>
+
+
+        <!--===== SCROLL REVEAL =====-->
+	<script src="https://unpkg.com/scrollreveal"></script>
+        
+        <!--===== MAIN JS =====-->
+        <script src="assets\js\main.js"></script>
+    </body>
+</html>
